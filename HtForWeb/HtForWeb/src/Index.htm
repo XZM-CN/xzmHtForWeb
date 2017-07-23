@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>HT for Web xzm主页</title>
+			<style type="text/css">
+			</style>
+			<!-- 引入样式表 -->
+			<link rel="stylesheet" type="text/css" href="Core/canvas.css" />
+			<link rel="stylesheet" type="text/css" href="ZTree/demo.css" />
+			<link rel="stylesheet" type="text/css" href="ZTree/zTreeStyle.css" />
+			<script src="Query/jquery.min.js"></script>
+			<script src="ZTree/jquery.ztree.core.js"></script>
+			<script src="Core/canvasTree.js"></script>
+	</head>
+	<body>
+			<div id='position01' style="margin-top:5px;  margin-left:335px;  color:blue;  position:absolute;  z-index:999;">
+			</div>
+			<div id='position02' style="margin-top:35px;  margin-left:335px;  color:blue;  position:absolute;  z-index:999;">
+			</div>
+
+			<div id="F_MIDDLE">中
+				<div id="DIVLEFT">
+					<td width="300px" align="left" style="">
+						<ul id="tree" class="ztree" style="width: 320px; height:910px; margin: 0px; overflow: auto;">
+							如果元素中的内容超出了给定的宽度和高度属性，overflow 属性可以确定是否显示滚动条等行为
+						</ul>
+					</td>
+				</div>
+				<div id="DIVRIGHT">
+					<canvas width="1550" height="910" id="canvas" style="border: 1px solid rgb(68, 68, 68); cursor: default;  margin: 0px; background-color: rgb(238, 238, 238);"></canvas>
+				</div>
+			</div>
+	</body>
+</html>
